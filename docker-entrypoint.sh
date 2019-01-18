@@ -5,13 +5,12 @@ PARA=$1
 
 if ! [ -z "$APP_PARAMS" ]; then
         PARA=$APP_PARAMS
-        echo $PARA
 fi
 
 
 num=0
 
-if ! [ $1 -eq 0 ]; then
+if ! [ $PARA -eq 0 ]; then
         num=1
 fi
 
